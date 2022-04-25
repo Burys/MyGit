@@ -1,0 +1,72 @@
+.tailored_box{
+    width: 77%;
+    height: 460px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(200,200,200,0.4);
+    border-radius: 10px;
+}
+.tailored_bbox{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.tailored_lbox{
+    width: 400px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: flex;
+}
+.tailored_sbox{
+    width: 190px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.tailored_img{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+.tailored_img img{
+    width: 100%;
+    height: 100%;
+}
+.tailored_number{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.tailored_number img{
+    width: 100%;
+    height: 100%;
+}
+.tailored_en{
+    width: fit-content;
+    height: 20px;
+    line-height: 20px;
+    margin: auto;
+    font-size: small;
+    color: grey;
+}
+.tailored_res{
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 5px;
+}

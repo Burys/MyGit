@@ -1,0 +1,60 @@
+.college_bbox{
+    width: 77%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245,247,250);
+    box-shadow: 10px 10px 10px rgb(245,247,250);
+    border-radius: 10px;
+}
+.college_lbox{
+    display: flex;
+    height:fit-content;
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+.college_box{
+    width: 200px;
+    margin: auto;
+    height: 140px;
+    line-height: 120px;
+    color: grey;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.hover_box{
+    width: 220px;
+    height: 154px;
+    margin: auto;
+}
+.college_box:hover{
+    width: 220px;
+    height: 154px;
+    font-size: large
+}
+.college_box img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 10px 10px 10px rgb(213,213,213);
+    border-radius: 20px;
+}
+.college_name{
+    text-align: center;
+    height: 20%;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.college_more{
+    line-height: 96px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(213,213,213);
+    background-color: white;
+    height: 80%;
+}
+.college_more:hover{
+    line-height: 104px;
+}

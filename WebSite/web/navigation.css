@@ -1,0 +1,301 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: -603px;
+    width: 603px;
+    height: 376px;
+    border-radius: 8px;
+    transition: 2s;
+}
+.service-topbar{
+    display: flex;
+    height: 40px;
+    line-height: 30px;
+    background: cornflowerblue;
+    border-radius: 8px 8px 0 0;
+}
+.service-topbar-title{
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.service-topbar-icon{
+    margin-left: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+}
+.service-topbar-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.service-content{
+    display: flex;
+    height: 336px;
+}
+.service-left-content{
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+}
+.service-left-top-content{
+    height: 310px;
+    background: #f7f7f7;
+    border: 1px solid #dedede;
+}
+.service-left-top-title{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: gray;
+}
+.service-left-top-introduce{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #dedede;
+    height: 245px;
+    background: white;
+    padding: 10px;
+}
+.introduce-p1{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.introduce-p2{
+    color: darkred;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.introduce-p3{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.service-left-bottom-content{
+    color: white;
+    height: 26px;
+    line-height: 26px;
+    background: cornflowerblue;
+    border: 1px solid #dedede;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.service-right-content{
+    height: 336px;
+}
+.service-hide{
+    position: fixed;
+    right: 0; bottom: 0;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    z-index: 999;
+    width:120px; height:40px;
+    border: none;
+    border-radius: 5px;
+}
+.service-hide:hover{
+    cursor: pointer;
+}
+.left-pic{
+    position:fixed;
+    z-index:999;
+    top:34%;left:0.3%;
+    width: 150px;
+}
+.right-pic{
+    position:fixed;
+    z-index:999;
+    top:30%;right:1%;
+    width: 190px;
+}
+.top-refresh{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background: blueviolet;
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    border-radius: 50%;
+    z-index: 999;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.top-refresh:hover{
+    background: red;
+}
+#homepage-nav{
+    display: flex;
+    height: 40px;
+    background-image: url("images/themebackground.jpg");
+    background-size: cover;
+}
+.homepage-navstyle{
+    display:flex;
+    align-items: center;
+    vertical-align: center;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+}
+.navstyle-top{
+    font-size: 12px;
+    line-height: 40px;
+    color: white;
+}
+#display_img{
+    display: flex;
+    height: 110px;
+    background: #f27b13;
+}
+#brand_img{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 12.3%;
+    height: 100px;
+    width: 250px;
+}
+#tel_img{
+    margin-top: 30px;
+    position: absolute;
+    /*right: 34%;*/
+    height: 50px;
+    margin-left: 60%;
+}
+#phone_box{
+    position: relative;
+    transform: translate(0,-50%);
+    top: 50%;
+    width: 300px;
+    height:100px;
+    /*background-color: blue;*/
+    margin-left: 65%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.tel_num{
+    margin-top: 15px;
+    /*right:15%;*/
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    /*background-color: red;*/
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Arial Black";
+}
+#brand_img img{
+    width: 100%;
+    height: 100%;
+}
+#tel_img img{
+    width: 100%;
+    height: 100%;
+}
+#contact_img{
+    margin-top: 10px;
+    position: absolute;
+    right: 15%;
+    height: 90px;
+}
+#contact_img img{
+    width: 100%;
+    height: 100%;
+}
+#major-nav{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+    /*background-color: #addee7;*/
+}
+.navstyle-major{
+    font-size: 18px;
+    line-height: 60px;
+    /*width: 12.25vw;*/
+    width: 150px;
+    color: black;
+    text-align: center;
+    /*padding-left: 66.9px;*/
+    /*padding-right: 66.9px;*/
+    border-left: solid 4px white;
+    border-right: solid 4px white;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+.navstyle-major:hover{
+    color: red;
+    border-top: solid 5px red;
+    border-bottom: solid 5px red;
+    cursor: pointer;
+}
+#active-nav{
+    display: flex;
+    height: 50px;
+    text-align: center;
+    background-color: indigo;
+}
+#active-nav a{
+    color: white;
+}
+.navstyle-active{
+    font-size: 15px;
+    line-height: 50px;
+    width: 12.35vw;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navstyle-active:hover{
+    background: red;
+    cursor: pointer;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
